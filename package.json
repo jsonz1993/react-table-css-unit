@@ -1,6 +1,6 @@
 {
   "name": "react-table-css-unit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "column width support rest unit for react-table v7,such as %,vh,vw,etc.",
   "main": "build/index.js",
   "scripts": {
