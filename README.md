@@ -22,6 +22,7 @@ __*Tips:* It will cause plugins and features
 that depend on the value caculation of `column.wide` invalid, such as `useResizeColumns`, etc.__
 
 ## Documentation
+* [Demo on codeSandbox](https://codesandbox.io/s/react-table-css-unit-vvilx?file=/src/App.js)
 * [Simple example](#simple-example)
 * [Full example](#full-example)
 * [Contribute](#contribute)
