@@ -13,7 +13,7 @@ function getWidth(width: any): string {
 export function getRealStyle(style: any={}, column: any): any {
   const { width, widthWithCssUnit } = column
 
-  if (hasCssUnit(width)) {
+  if (hasCssUnit(width) || widthWithCssUnit) {
     style.width = widthWithCssUnit
   }
   style.flex = 'none'

@@ -52,15 +52,19 @@ function Demo() {
       ]
     }, {
       Header: '30vh',
+      width: '30vh',
       accessor: 'col3'
     }, {
       Header: '100px',
+      width: '100px',
       accessor: 'col4'
     }, {
       Header: '20em',
+      width: '20em',
       accessor: 'col5'
     }, {
       Header: '20rem',
+      width: '20rem',
       accessor: 'col6'
     }]
   , [])
