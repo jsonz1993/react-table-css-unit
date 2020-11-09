@@ -10,7 +10,10 @@
     "test:eslint": "npx eslint --ext .tsx --ext .ts src/",
     "test:jest": "npx jest --env=jsdom --verbose",
     "test:jest:watch": "npx jest --watchAll --env=jsdom",
-    "test": "run-s test:*"
+    "test": "run-s test:*",
+    "release-patch": "npm version patch",
+    "release-minor": "npm version minor",
+    "release-major": "npm version major"
   },
   "repository": {
     "type": "git",
